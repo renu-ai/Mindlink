@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindLink</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MindLink</h1>
+        <p class="slogan">Yap My Ear Away</p>
+        <div id="chatBox" class="chatbox"></div>
+        <div class="input-section">
+            <input type="text" id="userInput" placeholder="Type your message here...">
+            <button id="sendButton">Send</button>
+        </div>
+        <div class="multimodal">
+            <input type="file" id="voiceInput" accept="audio/*" style="display: none;">
+            <button id="voiceButton">🎤 Voice</button>
+
+            <button id="puzzleButton">🧩 Puzzles</button>
+
+            <input type="file" id="imageInput" accept="image/*" style="display: none;">
+            <button id="imageButton">🖼️ Image</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
